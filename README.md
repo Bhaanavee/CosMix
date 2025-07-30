@@ -187,7 +187,7 @@ Follow these steps carefully to get Cosmix running on your local machine.
 
 ## Images
 
-![Cosmix Screenshot](images/speed.gif)
+ffmpeg -i video.mp4 -vf "fps=10,scale=800:-1" images/demo.gif
 ![Cosmix Screenshot](images/playlist.png)
 ![Cosmix Screenshot](images/mood.png)
 ![Cosmix Screenshot](images/image.png)
