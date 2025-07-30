@@ -14,7 +14,7 @@ Cosmix is a Streamlit-powered web application that helps you create personalized
 -   **Responsive Grid Display:** View your generated playlist's songs in a clean, responsive grid with direct links to Spotify.
 
 ## 📁 Project Structure
-
+'''
 CosMix/
 ├── .streamlit/
 │   └── config.toml          # Streamlit UI configuration (e.g., theme)
@@ -26,7 +26,7 @@ CosMix/
 ├── requirements.txt         # Python dependencies required for the project
 ├── .gitignore              # Specifies files/folders to ignore in Git
 └── README.md               # This project README file
-
+'''
 ## 🚀 Setup and Running Instructions
 
 Follow these steps carefully to get Cosmix running on your local machine.
