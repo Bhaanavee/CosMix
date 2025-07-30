@@ -21,25 +21,15 @@ The project is organized into a clean and modular structure for better maintaina
 Cosmix/
 
 ├── .streamlit/
-
 │   └── config.toml           # Streamlit UI configuration (e.g., theme)
-
 │   └── secrets.toml          # CRITICAL: Streamlit Cloud secrets (NOT pushed to Git)
-
 ├── src/
-
 │   ├── init.py           # Python package marker
-
 │   ├── config.py             # Your Spotify API credentials (LOCAL ONLY - NOT pushed to Git)
-
 │   └── spotify_utils.py      # All Spotify API interactions, data processing, and playlist generation logic
-
 ├── app.py                    # The main Streamlit application entry point
-
 ├── requirements.txt          # Python dependencies required for the project
-
 ├── .gitignore                # Specifies files/folders to ignore in Git
-
 └── README.md                 # This project README file
 
 
