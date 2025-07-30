@@ -2,6 +2,10 @@
 
 Cosmix is a Streamlit-powered web application that helps you create personalized Spotify playlists based on your existing music library and desired mood. Log in with your Spotify account, select your source playlists, choose a mood (like workout, study, or party) and the number of songs, and Cosmix will generate a new custom playlist for you!
 
+## Demo
+
+![Demo GIF](images/demo.gif)
+
 ## ✨ Features
 
 -   **User Login:** Securely log in with your Spotify account using OAuth 2.0.
@@ -184,10 +188,6 @@ Follow these steps carefully to get Cosmix running on your local machine.
 * **Spotify API Rate Limits:** The app includes small `time.sleep()` delays to respect Spotify's API rate limits. For very large playlists or many selections, this might still take a moment.
 * **Missing Audio Features (403 Errors):** Some tracks (e.g., regional exclusives, podcasts, local files) may not have audio features available from Spotify, resulting in `403 Forbidden` errors. The app is designed to gracefully handle this by skipping such tracks or using `NaN` for their features, but it might reduce the pool of songs for mood-based filtering.
 * **Performance:** While caching is implemented, the initial fetching of all songs from selected playlists (especially many large ones) can still take time. Subsequent generations with the *same* selected playlists will be faster due to caching.
-
-## Demo
-
-![Demo GIF](images/demo.gif)
 
 ---
 
