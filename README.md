@@ -187,7 +187,7 @@ Follow these steps carefully to get Cosmix running on your local machine.
 
 ## Images
 
-[![Watch the video](https://img.youtube.com/vi/QglFJMCFgcg/0.jpg)](https://www.youtube.com/watch?v=QglFJMCFgcg)s
+![Cosmix Screenshot](images/speed.gif)
 ![Cosmix Screenshot](images/playlist.png)
 ![Cosmix Screenshot](images/mood.png)
 ![Cosmix Screenshot](images/image.png)
