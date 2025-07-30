@@ -17,25 +17,15 @@ Cosmix is a Streamlit-powered web application that helps you create personalized
 
 
 Cosmix/
-
 ├── .streamlit/
-
 │   └── config.toml           # Streamlit UI configuration (e.g., theme)
-
 ├── src/
-
 │   ├── init.py               # Python package marker
-
 │   ├── config.py             # CRITICAL: Your Spotify API credentials (IGNORED BY GIT)
-
-│   └── spotify_utils.py      # All Spotify API interactions, data processing, and playlist generation logic
-
+│   └── spotify_utils.py      # All Spotify API interactions, data processing logic
 ├── app.py                    # The main Streamlit application entry point
-
 ├── requirements.txt          # Python dependencies required for the project
-
-├── .gitignore                # Specifies files/folders to ignore in Git (e.g., config.py, venv)
-
+├── .gitignore                # Specifies files/folders to ignore in Git
 └── README.md                 # This project README file
 
 
