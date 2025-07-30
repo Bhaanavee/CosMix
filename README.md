@@ -187,5 +187,12 @@ Follow these steps carefully to get Cosmix running on your local machine.
 * **Missing Audio Features (403 Errors):** Some tracks (e.g., regional exclusives, podcasts, local files) may not have audio features available from Spotify, resulting in `403 Forbidden` errors. The app is designed to gracefully handle this by skipping such tracks or using `NaN` for their features, but it might reduce the pool of songs for mood-based filtering.
 * **Performance:** While caching is implemented, the initial fetching of all songs from selected playlists (especially many large ones) can still take time. Subsequent generations with the *same* selected playlists will be faster due to caching.
 
+## Images
+
+![Cosmix Screenshot](images/login.png)
+![Cosmix Screenshot](images/playlist.png)
+![Cosmix Screenshot](images/mood.png)
+![Cosmix Screenshot](images/image.png)
+![Cosmix Screenshot](images/spotify.png)
 ---
 
