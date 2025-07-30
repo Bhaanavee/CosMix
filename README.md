@@ -187,7 +187,7 @@ Follow these steps carefully to get Cosmix running on your local machine.
 
 ## Images
 
-[Watch Demo](./images/demo.gif)
+![Demo](images/demo.gif)
 ![Cosmix Screenshot](images/playlist.png)
 ![Cosmix Screenshot](images/mood.png)
 ![Cosmix Screenshot](images/image.png)
