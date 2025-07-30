@@ -187,7 +187,7 @@ Follow these steps carefully to get Cosmix running on your local machine.
 
 ## Demo
 
-<img src="images/demo.gif" width="600"/>
+![Demo GIF](images/demo.gif)
 
 ---
 
